@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  poll:
+    environment:
+      FREEDNS_API_KEY: "${FREEDNS_API_KEY}"
+      FREEDNS_DELAY: "${FREEDNS_DELAY}"
+    build: .
